@@ -13,7 +13,7 @@ import os
 from PIL import Image
 import random
 
-df = pd.read_csv("../input/HAM10000_metadata.csv")
+df = pd.read_csv("./HAM10000_metadata.csv")
 dx_dict = {
     'nv': 'Melanocytic nevus',
     'mel': 'Melanoma',
